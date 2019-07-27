@@ -1,0 +1,14 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+test_protected:
+    path: /api/test
+    controller: App\Controller\TestController::testProtected
+
+test_public:
+    path: /api/public/test
+    controller: App\Controller\TestController::testPublic
+
+uloc_api:
+    resource: '@UlocApiBundle/Resources/config/routes.xml'
+    prefix: '/api'
