@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e07cc493-ffea-4be1-8714-6d7e2c58987d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uloc-api/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/uloc-api/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uloc-api/src/DependencyInjection/Compiler/PersonCompilerPass.php" beforeDir="false" afterPath="$PROJECT_DIR$/uloc-api/src/DependencyInjection/Compiler/PersonCompilerPass.php" afterDir="false" />
     </list>
@@ -18,7 +21,7 @@
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/uloc-api" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>false</service-enabled>
@@ -97,11 +100,12 @@
   <component name="ProjectId" id="1ObfLRhLh71j0F5j3CftNU4aoQ3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../tests/FOSUserBundle-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -137,7 +141,7 @@
       <workItem from="1564195699499" duration="50000" />
       <workItem from="1564195792227" duration="14329000" />
       <workItem from="1564251182792" duration="160000" />
-      <workItem from="1564251392813" duration="3972000" />
+      <workItem from="1564251392813" duration="4279000" />
     </task>
     <servers />
   </component>
@@ -156,6 +160,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/uloc-bundle" />
+    </ignored-roots>
   </component>
   <component name="masterDetails">
     <states>
