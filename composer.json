@@ -11,9 +11,12 @@
         "symfony/framework-bundle": "4.3.*",
         "symfony/orm-pack": "^1.0",
         "symfony/yaml": "4.3.*",
-        "ulocbr/uloc-api": "*@dev"
+        "ulocbr/uloc-api": "*@dev",
+        "ext-json": "*"
     },
     "require-dev": {
+        "symfony/phpunit-bridge": "^4.3",
+        "symfony/profiler-pack": "^1.0"
     },
     "config": {
         "preferred-install": {
