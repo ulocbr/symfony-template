@@ -10,6 +10,7 @@ namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Uloc\ApiBundle\Controller\BaseController;
+use Uloc\ApiBundle\Manager\PersonManager;
 
 class TestController extends BaseController
 {
@@ -20,6 +21,10 @@ class TestController extends BaseController
 
     public function testProtected(){
         return new JsonResponse('Ok. Protected route.');
+    }
+
+    public function testPersonManager(PersonManager $manager){
+        return new JsonResponse('Ok. Person Manager work.');
     }
 
 }

@@ -9,6 +9,10 @@ test_public:
     path: /api/public/test
     controller: App\Controller\TestController::testPublic
 
+test_personManager:
+    path: /api/public/testPersonManager
+    controller: App\Controller\TestController::testPersonManager
+
 uloc_api:
     resource: '@UlocApiBundle/Resources/config/routes.xml'
     prefix: '/api'
